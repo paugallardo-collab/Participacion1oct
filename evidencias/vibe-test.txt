@@ -1,0 +1,8 @@
+00:00 +0: loading C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/widget_test.dart
+00:00 +0: Aceptación 1: 27.50
+00:06 +1: Aceptación 2: 30.00
+00:07 +2: Aceptación 3: Debe haber al menos una persona
+00:08 +3: Aceptación 4: Monto inválido
+00:09 +4: Aceptación 5: 3.33
+00:09 +5: Aceptación 6: 4.00
+00:10 +6: All tests passed!

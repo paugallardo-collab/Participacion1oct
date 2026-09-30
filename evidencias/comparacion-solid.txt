@@ -1,0 +1,13 @@
+﻿Rama vibe:
+vibe:lib/main.dart:1:import 'package:flutter/material.dart';
+lib/main.dart
+vibe:lib/main.dart:42:      if (monto == null || !monto.isFinite || monto < 0) {
+vibe:lib/main.dart:54:        _resultado = (_arriba ? valor.ceilToDouble() : valor).toStringAsFixed(
+Rama sdd:
+OK: tres capas presentes; domain y data libres de Flutter.
+OK: presentation depende de domain, no de data.
+OK: las dos estrategias se instancian solo en lib/main.dart.
+OK: CalcularDivision no valida, formatea ni inspecciona tipos.
+LSP/OCP se verifican ademas con flutter test test/division_test.dart.
+Ancestro comun vibe/sdd:
+934956ac2dba4631651592569c3893c7b0c2641b

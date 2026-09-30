@@ -1,0 +1,13 @@
+﻿*   1c30050 integrar app SDD en main para entrega y ejecución
+|\  
+| * 32d62a1 documentar Git local y guardar evidencia legible en UTF-8
+| * 58f1347 app divisor de cuenta - rama sdd, 28 pruebas y APK verificado
+| * 633d46b plan, modelos, contratos y 16 tareas antes de implementar
+| * a10edff spec y clarificaciones: seis escenarios y supuestos explícitos
+| * b9c67de constitution: SOLID, capas, seguridad y pruebas
+| * 8b09edf inicializar GitHub Spec Kit 1.0.13 con habilidades Codex
+| * 5d80311 archivo de instrucciones del agente
+|/  
+| * e86af0c app divisor de cuenta - rama vibe, seis escenarios de interfaz
+|/  
+* 934956a proyecto base de flutter, sin tocar
