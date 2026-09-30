@@ -1,0 +1,58 @@
+Running Gradle task 'assembleDebug'...                          
+
+C:\FlutterProjects\Prog.-Asistida-de-Aplicaciones\Participacion1oct\android>if "Windows_NT" == "Windows_NT" setlocal
+
+C:\FlutterProjects\Prog.-Asistida-de-Aplicaciones\Participacion1oct\android>set DEFAULT_JVM_OPTS= 
+
+C:\FlutterProjects\Prog.-Asistida-de-Aplicaciones\Participacion1oct\android>set DIRNAME=C:\FlutterProjects\Prog.-Asistida-de-Aplicaciones\Participacion1oct\android\ 
+
+C:\FlutterProjects\Prog.-Asistida-de-Aplicaciones\Participacion1oct\android>if "C:\FlutterProjects\Prog.-Asistida-de-Aplicaciones\Participacion1oct\android\" == "" set DIRNAME=. 
+
+C:\FlutterProjects\Prog.-Asistida-de-Aplicaciones\Participacion1oct\android>set APP_BASE_NAME=gradlew 
+
+C:\FlutterProjects\Prog.-Asistida-de-Aplicaciones\Participacion1oct\android>set APP_HOME=C:\FlutterProjects\Prog.-Asistida-de-Aplicaciones\Participacion1oct\android\ 
+
+C:\FlutterProjects\Prog.-Asistida-de-Aplicaciones\Participacion1oct\android>if defined JAVA_HOME goto findJavaFromJavaHome 
+
+C:\FlutterProjects\Prog.-Asistida-de-Aplicaciones\Participacion1oct\android>set JAVA_HOME=C:\Program Files\Android\Android Studio\jbr 
+
+C:\FlutterProjects\Prog.-Asistida-de-Aplicaciones\Participacion1oct\android>set JAVA_EXE=C:\Program Files\Android\Android Studio\jbr/bin/java.exe 
+
+C:\FlutterProjects\Prog.-Asistida-de-Aplicaciones\Participacion1oct\android>if exist "C:\Program Files\Android\Android Studio\jbr/bin/java.exe" goto init 
+
+C:\FlutterProjects\Prog.-Asistida-de-Aplicaciones\Participacion1oct\android>if not "Windows_NT" == "Windows_NT" goto win9xME_args 
+
+C:\FlutterProjects\Prog.-Asistida-de-Aplicaciones\Participacion1oct\android>if "@eval[2+2]" == "4" goto 4NT_args 
+
+C:\FlutterProjects\Prog.-Asistida-de-Aplicaciones\Participacion1oct\android>set CMD_LINE_ARGS= 
+
+C:\FlutterProjects\Prog.-Asistida-de-Aplicaciones\Participacion1oct\android>set _SKIP=2 
+
+C:\FlutterProjects\Prog.-Asistida-de-Aplicaciones\Participacion1oct\android>if "x-q" == "x" goto execute 
+
+C:\FlutterProjects\Prog.-Asistida-de-Aplicaciones\Participacion1oct\android>set CMD_LINE_ARGS=-q -Ptarget-platform=android-arm,android-arm64,android-x64 -Ptarget=lib\main.dart -Pbase-application-name=android.app.Application -Pdart-defines=RkxVVFRFUl9CVUlMRF9OQU1FPTEuMC4w,RkxVVFRFUl9CVUlMRF9OVU1CRVI9MQ==,RkxVVFRFUl9WRVJTSU9OPTMuNDcuMQ==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049NjY1NTQ4MmVjMA==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NWQ1MzE3ODg2OQ==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMy4x -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=false -Pflutter.androidSdkRoot=C:\Users\Admin\AppData\Local\Android\sdk -Pflutter.installedNdkVersions=28.2.13676358 -Pflutter.sdkManagerPath=C:\Users\Admin\AppData\Local\Android\sdk\cmdline-tools\22.0\bin\sdkmanager.bat assembleDebug 
+
+C:\FlutterProjects\Prog.-Asistida-de-Aplicaciones\Participacion1oct\android>goto execute 
+
+C:\FlutterProjects\Prog.-Asistida-de-Aplicaciones\Participacion1oct\android>set CLASSPATH=C:\FlutterProjects\Prog.-Asistida-de-Aplicaciones\Participacion1oct\android\\gradle\wrapper\gradle-wrapper.jar 
+
+C:\FlutterProjects\Prog.-Asistida-de-Aplicaciones\Participacion1oct\android>"C:\Program Files\Android\Android Studio\jbr/bin/java.exe"    "-Dorg.gradle.appname=gradlew" -classpath "C:\FlutterProjects\Prog.-Asistida-de-Aplicaciones\Participacion1oct\android\\gradle\wrapper\gradle-wrapper.jar" org.gradle.wrapper.GradleWrapperMain -q -Ptarget-platform=android-arm,android-arm64,android-x64 -Ptarget=lib\main.dart -Pbase-application-name=android.app.Application -Pdart-defines=RkxVVFRFUl9CVUlMRF9OQU1FPTEuMC4w,RkxVVFRFUl9CVUlMRF9OVU1CRVI9MQ==,RkxVVFRFUl9WRVJTSU9OPTMuNDcuMQ==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049NjY1NTQ4MmVjMA==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NWQ1MzE3ODg2OQ==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMy4x -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=false -Pflutter.androidSdkRoot=C:\Users\Admin\AppData\Local\Android\sdk -Pflutter.installedNdkVersions=28.2.13676358 -Pflutter.sdkManagerPath=C:\Users\Admin\AppData\Local\Android\sdk\cmdline-tools\22.0\bin\sdkmanager.bat assembleDebug 
+flutter : WARNING: A restricted method in java.lang.System has been called
+At line:2 char:1
++ flutter build apk --debug *> evidencias/sdd-apk.txt; Get-Content evid ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (WARNING: A rest...has been called:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+WARNING: java.lang.System::load has been called by net.rubygrapefruit.platform.internal.NativeLibraryLoader in an 
+unnamed module (file:/C:/Users/Admin/.gradle/wrapper/dists/gradle-9.3.1-all/9ot9r568e8zfvvd4mn8rbu1j0/gradle-9.3.1/lib/
+native-platform-0.22-milestone-29.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+
+C:\FlutterProjects\Prog.-Asistida-de-Aplicaciones\Participacion1oct\android>if "0" == "0" goto mainEnd 
+
+C:\FlutterProjects\Prog.-Asistida-de-Aplicaciones\Participacion1oct\android>if "Windows_NT" == "Windows_NT" endlocal
+Running Gradle task 'assembleDebug'...                             16.8s
+√ Built build\app\outputs\flutter-apk\app-debug.apk

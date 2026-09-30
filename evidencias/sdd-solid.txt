@@ -1,0 +1,5 @@
+OK: tres capas presentes; domain y data libres de Flutter.
+OK: presentation depende de domain, no de data.
+OK: las dos estrategias se instancian solo en lib/main.dart.
+OK: CalcularDivision no valida, formatea ni inspecciona tipos.
+LSP/OCP se verifican ademas con flutter test test/division_test.dart.

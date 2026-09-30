@@ -1,0 +1,30 @@
+00:00 +0: loading C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/division_test.dart
+00:00 +0: C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/division_test.dart: 1. reparto normal
+00:00 +1: C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/limites_test.dart: Rechaza monto -1.0
+00:00 +2: C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/division_test.dart: 2. sin propina
+00:00 +3: C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/division_test.dart: 2. sin propina
+00:00 +4: C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/division_test.dart: 3. cero personas
+00:00 +5: C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/limites_test.dart: Rechaza monto Infinity
+00:00 +6: C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/division_test.dart: 4. monto no numerico
+00:00 +7: C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/limites_test.dart: Rechaza monto 1000000001.0
+00:00 +8: C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/division_test.dart: 5. redondeo exacto
+00:00 +9: C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/limites_test.dart: Rechaza propina -1.0
+00:00 +10: C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/division_test.dart: 6. redondeo hacia arriba
+00:00 +11: C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/limites_test.dart: Rechaza propina NaN
+00:00 +12: C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/division_test.dart: LSP: un mismo cálculo admite ambas estrategias sin if ni cast
+00:00 +13: C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/limites_test.dart: Rechaza propina Infinity
+00:00 +14: C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/division_test.dart: OCP: tercera estrategia sin cambiar CalcularDivision
+00:00 +15: C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/limites_test.dart: Rechaza propina 101.0
+00:00 +16: C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/limites_test.dart: Cero monto y extremos permitidos
+00:00 +17: C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/limites_test.dart: Mitad de centavo, entero, cero y formato
+00:00 +18: C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/limites_test.dart: Controlador no llama estrategia ante errores y recupera el estado
+00:01 +19: C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/pantalla_test.dart: Pantalla: escenario 1
+00:05 +20: C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/pantalla_test.dart: Pantalla: escenario 2
+00:06 +21: C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/pantalla_test.dart: Pantalla: escenario 3
+00:07 +22: C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/pantalla_test.dart: Pantalla: escenario 4
+00:08 +23: C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/pantalla_test.dart: Pantalla: escenario 5
+00:10 +24: C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/pantalla_test.dart: Pantalla: escenario 6
+00:11 +25: C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/pantalla_test.dart: Editar borra el resultado y un error no lo recupera
+00:12 +26: C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/pantalla_test.dart: Cambiar modo borra resultado; acepta coma decimal
+00:12 +27: C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/pantalla_test.dart: Pantalla estrecha y texto grande sin desbordamiento
+00:13 +28: All tests passed!

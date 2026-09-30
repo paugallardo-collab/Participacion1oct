@@ -1,0 +1,7 @@
+OK 1. reparto normal
+OK 2. sin propina
+OK 3. cero personas
+OK 4. monto no numerico
+OK 5. redondeo exacto
+OK 6. redondeo hacia arriba
+6/6 casos verificados con Dart puro.

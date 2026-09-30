@@ -1,0 +1,128 @@
+00:00 +0: loading C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/division_test.dart
+flutter : test/division_test.dart:2:8: Error: Error when reading 'lib/domain/cuenta.dart': The system cannot find the 
+file specified
+At line:3 char:1
++ flutter test test/division_test.dart --reporter expanded *> evidencia ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (test/division_t... file specified:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+import 'package:divisor_cuenta/domain/cuenta.dart';
+       ^
+test/division_test.dart:3:8: Error: Error when reading 'lib/domain/calcular_division.dart': The system cannot find the 
+file specified
+import 'package:divisor_cuenta/domain/calcular_division.dart';
+       ^
+test/division_test.dart:4:8: Error: Error when reading 'lib/domain/validar_entrada.dart': The system cannot find the 
+file specified
+import 'package:divisor_cuenta/domain/validar_entrada.dart';
+       ^
+test/division_test.dart:5:8: Error: Error when reading 'lib/domain/estrategia_redondeo.dart': The system cannot find 
+the file specified
+import 'package:divisor_cuenta/domain/estrategia_redondeo.dart';
+       ^
+test/division_test.dart:6:8: Error: Error when reading 'lib/data/redondeo_exacto.dart': The system cannot find the 
+file specified
+import 'package:divisor_cuenta/data/redondeo_exacto.dart';
+       ^
+test/division_test.dart:7:8: Error: Error when reading 'lib/data/redondeo_hacia_arriba.dart': The system cannot find 
+the file specified
+import 'package:divisor_cuenta/data/redondeo_hacia_arriba.dart';
+       ^
+test/division_test.dart:11:40: Error: Type 'EstrategiaRedondeo' not found.
+class RedondeoMultiploCinco implements EstrategiaRedondeo {
+                                       ^^^^^^^^^^^^^^^^^^
+test/division_test.dart:17:19: Error: Method not found: 'ValidarEntrada'.
+  const validar = ValidarEntrada();
+                  ^^^^^^^^^^^^^^
+test/division_test.dart:18:20: Error: Method not found: 'CalcularDivision'.
+  const calcular = CalcularDivision();
+                   ^^^^^^^^^^^^^^^^
+test/division_test.dart:19:32: Error: 'EstrategiaRedondeo' isn't a type.
+  final estrategias = <String, EstrategiaRedondeo>{
+                               ^^^^^^^^^^^^^^^^^^
+test/division_test.dart:20:15: Error: Method not found: 'RedondeoExacto'.
+    'exacto': RedondeoExacto(), 'arriba': RedondeoHaciaArriba(),
+              ^^^^^^^^^^^^^^
+test/division_test.dart:20:43: Error: Method not found: 'RedondeoHaciaArriba'.
+    'exacto': RedondeoExacto(), 'arriba': RedondeoHaciaArriba(),
+                                          ^^^^^^^^^^^^^^^^^^^
+test/division_test.dart:24:22: Error: Method not found: 'Cuenta'.
+      final cuenta = Cuenta(monto: caso.monto, personas: caso.personas, propina: caso.propina);
+                     ^^^^^^
+test/division_test.dart:36:20: Error: Method not found: 'Cuenta'.
+    const cuenta = Cuenta(monto: 10, personas: 3, propina: 0);
+                   ^^^^^^
+test/division_test.dart:37:24: Error: 'EstrategiaRedondeo' isn't a type.
+    final ejemplos = <(EstrategiaRedondeo, double)>[
+                       ^^^^^^^^^^^^^^^^^^
+test/division_test.dart:38:8: Error: Method not found: 'RedondeoExacto'.
+      (RedondeoExacto(), 3.33), (RedondeoHaciaArriba(), 4),
+       ^^^^^^^^^^^^^^
+test/division_test.dart:38:34: Error: Method not found: 'RedondeoHaciaArriba'.
+      (RedondeoExacto(), 3.33), (RedondeoHaciaArriba(), 4),
+                                 ^^^^^^^^^^^^^^^^^^^
+test/division_test.dart:46:36: Error: Couldn't find constructor 'Cuenta'.
+    expect(calcular.ejecutar(const Cuenta(monto: 24, personas: 2, propina: 0),
+                                   ^^^^^^
+00:00 +0 -1: loading C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/division_test.dart [E]
+  Failed to load "C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/division_test.dart":
+  Compilation failed for testPath=C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/division_test.dart: test/division_test.dart:2:8: Error: Error when reading 'lib/domain/cuenta.dart': The system cannot find the file specified
+  import 'package:divisor_cuenta/domain/cuenta.dart';
+         ^
+  test/division_test.dart:3:8: Error: Error when reading 'lib/domain/calcular_division.dart': The system cannot find the file specified
+  import 'package:divisor_cuenta/domain/calcular_division.dart';
+         ^
+  test/division_test.dart:4:8: Error: Error when reading 'lib/domain/validar_entrada.dart': The system cannot find the file specified
+  import 'package:divisor_cuenta/domain/validar_entrada.dart';
+         ^
+  test/division_test.dart:5:8: Error: Error when reading 'lib/domain/estrategia_redondeo.dart': The system cannot find the file specified
+  import 'package:divisor_cuenta/domain/estrategia_redondeo.dart';
+         ^
+  test/division_test.dart:6:8: Error: Error when reading 'lib/data/redondeo_exacto.dart': The system cannot find the file specified
+  import 'package:divisor_cuenta/data/redondeo_exacto.dart';
+         ^
+  test/division_test.dart:7:8: Error: Error when reading 'lib/data/redondeo_hacia_arriba.dart': The system cannot find the file specified
+  import 'package:divisor_cuenta/data/redondeo_hacia_arriba.dart';
+         ^
+  test/division_test.dart:11:40: Error: Type 'EstrategiaRedondeo' not found.
+  class RedondeoMultiploCinco implements EstrategiaRedondeo {
+                                         ^^^^^^^^^^^^^^^^^^
+  test/division_test.dart:17:19: Error: Method not found: 'ValidarEntrada'.
+    const validar = ValidarEntrada();
+                    ^^^^^^^^^^^^^^
+  test/division_test.dart:18:20: Error: Method not found: 'CalcularDivision'.
+    const calcular = CalcularDivision();
+                     ^^^^^^^^^^^^^^^^
+  test/division_test.dart:19:32: Error: 'EstrategiaRedondeo' isn't a type.
+    final estrategias = <String, EstrategiaRedondeo>{
+                                 ^^^^^^^^^^^^^^^^^^
+  test/division_test.dart:20:15: Error: Method not found: 'RedondeoExacto'.
+      'exacto': RedondeoExacto(), 'arriba': RedondeoHaciaArriba(),
+                ^^^^^^^^^^^^^^
+  test/division_test.dart:20:43: Error: Method not found: 'RedondeoHaciaArriba'.
+      'exacto': RedondeoExacto(), 'arriba': RedondeoHaciaArriba(),
+                                            ^^^^^^^^^^^^^^^^^^^
+  test/division_test.dart:24:22: Error: Method not found: 'Cuenta'.
+        final cuenta = Cuenta(monto: caso.monto, personas: caso.personas, propina: caso.propina);
+                       ^^^^^^
+  test/division_test.dart:36:20: Error: Method not found: 'Cuenta'.
+      const cuenta = Cuenta(monto: 10, personas: 3, propina: 0);
+                     ^^^^^^
+  test/division_test.dart:37:24: Error: 'EstrategiaRedondeo' isn't a type.
+      final ejemplos = <(EstrategiaRedondeo, double)>[
+                         ^^^^^^^^^^^^^^^^^^
+  test/division_test.dart:38:8: Error: Method not found: 'RedondeoExacto'.
+        (RedondeoExacto(), 3.33), (RedondeoHaciaArriba(), 4),
+         ^^^^^^^^^^^^^^
+  test/division_test.dart:38:34: Error: Method not found: 'RedondeoHaciaArriba'.
+        (RedondeoExacto(), 3.33), (RedondeoHaciaArriba(), 4),
+                                   ^^^^^^^^^^^^^^^^^^^
+  test/division_test.dart:46:36: Error: Couldn't find constructor 'Cuenta'.
+      expect(calcular.ejecutar(const Cuenta(monto: 24, personas: 2, propina: 0),
+                                     ^^^^^^
+  .
+00:00 +0 -1: Some tests failed.
+
+Failing tests:
+  C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/division_test.dart: loading C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct/test/division_test.dart
