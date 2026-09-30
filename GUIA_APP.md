@@ -212,3 +212,16 @@ No uses el remoto del repositorio padre para sobrescribir sus ramas.
   (24–28), herramientas (30–31) y cierre con pruebas, APK y README (35).
 - [Instalación oficial de Spec Kit](https://github.github.com/spec-kit/installation.html).
 - [Repositorio oficial de OpenSpec](https://github.com/Fission-AI/OpenSpec/), para la comparación de herramientas.
+
+### Si Git muestra "dubious ownership" en este equipo
+
+El repositorio fue creado desde el usuario aislado del entorno. No se cambió la lista global
+de confianza de Git. Para un comando sobre esta carpeta conocida, usa la excepción local:
+
+```powershell
+git -c safe.directory=C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct status
+git -c safe.directory=C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Participacion1oct switch sdd
+```
+
+La opción `-c` vale solo para ese comando; no escribe una configuración persistente.
+Puedes aplicar el mismo prefijo a branch, diff, log o push. Ejecutar Flutter no necesita esa excepción.
