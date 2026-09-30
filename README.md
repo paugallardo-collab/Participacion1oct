@@ -1,17 +1,20 @@
-# divisor_cuenta
+﻿# Divisor de cuenta · versión vibe
 
-A new Flutter project.
+Una pantalla Flutter: monto, personas, propina y redondeo.
 
-## Getting Started
+```powershell
+flutter pub get
+flutter run -d chrome
+flutter analyze
+flutter test
+```
 
-This project is a starting point for a Flutter application.
+Todo el comportamiento está en `lib/main.dart`. Los seis escenarios de la guía se comprueban desde la interfaz con `test/widget_test.dart`.
 
-A few resources to get you started if this is your first Flutter project:
+## Registro de ejecución
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Implementación directa, sin especificación previa versionada ni separación en capas. Se hizo en la misma sesión que leyó el enunciado: **no es una ejecución ciega del prompt mínimo** y no debe presentarse como tal. El agente conocía los seis escenarios antes de escribir esta versión. Se añadieron las pruebas de interfaz para medir el comportamiento, sin introducir contratos de dominio de SDD.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+La solicitud inicial del usuario no cuenta como iteración. Las acciones autónomas y correcciones de herramientas tampoco. No hubo nuevos mensajes del estudiante durante esta implementación.
+
+No se puede concluir que una metodología sea universalmente mejor a partir de este ejercicio adaptado. La comparación válida aquí es la estructura y la reutilización de pruebas.
