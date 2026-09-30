@@ -1,50 +1,47 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+﻿# Divisor de cuenta Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. SRP — una responsabilidad
+Cada clase tiene una razón de cambio. CalcularDivision calcula: no valida entradas ni formatea texto.
+ValidarEntrada valida; FormateadorMoneda formatea; la pantalla dibuja y delega.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. OCP — extensión por estrategias
+Una nueva regla de redondeo se agrega implementando EstrategiaRedondeo, sin editar CalcularDivision
+ni las estrategias existentes. Su registro se hace en el punto de composición.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. LSP — sustitución comprobable
+Toda estrategia recibe un importe finito no negativo y devuelve otro finito no negativo.
+CalcularDivision usa cualquier EstrategiaRedondeo sin comprobaciones de tipo, casts ni condiciones
+por implementación. Una prueba sustituye ambas estrategias en el mismo caso de uso.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. ISP — contratos pequeños
+EstrategiaRedondeo expone solamente aplicar(double valor). No contiene validación, formato ni UI.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. DIP — dependencia hacia el dominio
+presentation depende de domain, nunca de data. data implementa abstracciones de domain.
+El controlador recibe sus dependencias por constructor. Solo lib/main.dart instancia las
+implementaciones concretas de redondeo en código de producción; las pruebas pueden crear fixtures.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Architecture and Security
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+- Capas: presentation -> domain <- data.
+- lib/domain no importa package:flutter; puede ejecutarse con Dart sin Flutter.
+- main.dart es el punto de composición de las dependencias de la app.
+- Nunca guardar secretos ni claves de API en Git.
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+## Quality and Learning
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+- Toda funcionalidad crítica tiene pruebas; cada criterio de aceptación se vuelve ejecutable.
+- Toda función generada debe ser explicable por el estudiante: qué hace, por qué existe,
+  qué recibe, qué devuelve y qué errores produce.
+- La evidencia incluye análisis estático, pruebas, compilación y comprobaciones de capas.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+Esta constitución prevalece sobre decisiones de implementación. Un incumplimiento se corrige
+primero en el artefacto que lo originó y luego en el código. Las modificaciones se documentan
+con motivo y versión: mayor si cambia una regla incompatible, menor si agrega una regla,
+parche si aclara su redacción. Toda revisión comprueba estas reglas con evidencia.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2026-09-30 | **Last Amended**: 2026-09-30
