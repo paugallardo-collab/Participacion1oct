@@ -38,7 +38,7 @@ ni correcciones autónomas. Las métricas están limitadas por el contexto compa
 - Misma sesión/configuración, sin subagentes ni otros modelos; no es una comparación ciega.
 - No se atribuyen al estudiante preguntas/respuestas que no hizo.
 - Revisión manual pendiente: no había navegador conectado a la herramienta de control.
-- GitHub pendiente: no se confirmó URL de un repositorio independiente.
+- GitHub: el 2026-10-01 el estudiante solicitó la subida. Se publicaron main, vibe y sdd en https://github.com/paugallardo-collab/Participacion1oct (privado). La publicación pública fue rechazada por la revisión automática al no haber autorización expresa de visibilidad; se completó en privado.
 - La revisión automática rechazó una modificación persistente de safe.directory global.
   No se aplicó. La guía muestra la alternativa acotada con `git -c` por comando.
 - No se reportan créditos consumidos: esa cifra no está disponible para el agente.

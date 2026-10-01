@@ -172,6 +172,6 @@ pequeño; al estabilizar requisitos, registraría decisiones y pruebas.
 - [x] SDD: 28 pruebas, análisis limpio, APK generado y dominio sin Flutter.
 - [x] Respuestas y bitácora en main.
 - [ ] Ejecutar manualmente los seis escenarios y registrar observaciones del estudiante.
-- [ ] Publicar las tres ramas en GitHub: falta un repositorio independiente de destino confirmado.
+- [x] Publicar las tres ramas en GitHub: [Participacion1oct](https://github.com/paugallardo-collab/Participacion1oct), repositorio privado creado y publicado el 2026-10-01 por solicitud del estudiante.
 
 No se publicó en el remoto del repositorio padre ni se sobrescribieron otros trabajos.

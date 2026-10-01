@@ -3,6 +3,14 @@
 Divisor de cuenta Flutter de una pantalla, con propina y dos modos de redondeo.
 Implementación SDD sin conexión, sin base de datos y sin dependencias externas de ejecución.
 
+## Repositorio publicado
+
+Publicado el 2026-10-01 en [Participacion1oct](https://github.com/paugallardo-collab/Participacion1oct), con visibilidad privada.
+
+- [Versión vibe](https://github.com/paugallardo-collab/Participacion1oct/tree/vibe): implementación directa.
+- [Versión SDD](https://github.com/paugallardo-collab/Participacion1oct/tree/sdd): implementación por capas.
+- `main`: app SDD más respuestas, bitácora y guía. Para que el profesor acceda a un repositorio privado, necesita acceso como colaborador.
+
 ## Ejecutar en este equipo
 
 ```powershell
