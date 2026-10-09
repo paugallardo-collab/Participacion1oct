@@ -28,12 +28,17 @@ void main() {
       ),
     );
   }
-  for (final propina in [-1.0, double.nan, double.infinity, 101.0]) {
+  for (final caso in [
+    (-1.0, 'Propina inválida'),
+    (double.nan, 'Propina inválida'),
+    (double.infinity, 'Propina inválida'),
+    (101.0, 'La propina no puede superar el 100%'),
+  ]) {
     test(
-      'Rechaza propina $propina',
+      'Rechaza propina ${caso.$1}',
       () => expect(
-        validar.ejecutar(Cuenta(monto: 100, personas: 2, propina: propina)),
-        'Propina inválida',
+        validar.ejecutar(Cuenta(monto: 100, personas: 2, propina: caso.$1)),
+        caso.$2,
       ),
     );
   }

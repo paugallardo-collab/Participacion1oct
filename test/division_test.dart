@@ -21,6 +21,16 @@ void main() {
     'exacto': RedondeoExacto(),
     'arriba': RedondeoHaciaArriba(),
   };
+  test('Rechaza una propina de 150% con el mensaje del límite', () {
+    const cuenta = Cuenta(monto: 100, personas: 4, propina: 150);
+
+    expect(validar.ejecutar(cuenta), 'La propina no puede superar el 100%');
+  });
+  test('Permite una propina de exactamente 100%', () {
+    const cuenta = Cuenta(monto: 100, personas: 4, propina: 100);
+
+    expect(validar.ejecutar(cuenta), isNull);
+  });
   for (final caso in casos) {
     test(caso.nombre, () {
       final cuenta = Cuenta(
