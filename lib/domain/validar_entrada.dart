@@ -10,10 +10,11 @@ class ValidarEntrada {
     }
     if (cuenta.personas < 1) return 'Debe haber al menos una persona';
     if (cuenta.personas > 1000000) return 'Máximo 1000000 personas';
-    if (!cuenta.propina.isFinite ||
-        cuenta.propina < 0 ||
-        cuenta.propina > 100) {
+    if (!cuenta.propina.isFinite || cuenta.propina < 0) {
       return 'Propina inválida';
+    }
+    if (cuenta.propina > 100) {
+      return 'La propina no puede superar el 100%';
     }
     return null;
   }
