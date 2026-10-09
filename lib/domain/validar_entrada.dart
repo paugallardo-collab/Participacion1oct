@@ -1,6 +1,8 @@
 import 'cuenta.dart';
 
 class ValidarEntrada {
+  static const _propinaMaxima = 100;
+
   const ValidarEntrada();
 
   /// null indica éxito; el primer error determina el mensaje de la pantalla.
@@ -13,7 +15,7 @@ class ValidarEntrada {
     if (!cuenta.propina.isFinite || cuenta.propina < 0) {
       return 'Propina inválida';
     }
-    if (cuenta.propina > 100) {
+    if (cuenta.propina > _propinaMaxima) {
       return 'La propina no puede superar el 100%';
     }
     return null;
