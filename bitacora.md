@@ -24,6 +24,8 @@ Migración basada en Participacion1oct/sdd, snapshot 32d62a1. El laboratorio no 
 - Spec Kit 1.0.13 sí ofrece speckit-converge. Revisión final y resultado en evidencias/convergencia.md del repo React.
 - Investigación de compatibilidad delegada por instrucción del flujo plan; no altera el conteo de prompts del estudiante.
 - Revisión visual real del navegador pendiente: herramienta de navegador sin superficies conectadas (listBrowsers devolvió []). Vite arrancó en 127.0.0.1:5173; UI funcional cubierta por Testing Library.
-- Ejercicios requeridos a mano: analisis_spec.md y test/casosDePrueba.js son borradores del agente; el estudiante debe realizar/revisar su propia clasificación y traducción, y poder explicar las funciones.
+- Trabajo personal finalizado por el estudiante: análisis de la especificación y la constitución, clasificación de enunciados y traducción de los seis casos de aceptación. La implementación del código se realizó con asistencia de Codex. La explicación de funciones está en GUIA_APP.md.
+
+Las métricas de la tabla corresponden a la sesión de implementación del 2 de octubre. El estudiante finalizó posteriormente el análisis y la traducción de los seis casos; no se inventa un conteo de líneas de ese trabajo posterior.
 
 La diferencia de tiempo no demuestra superioridad del enfoque: no hay medición comparable de Flutter ni experimento controlado.
