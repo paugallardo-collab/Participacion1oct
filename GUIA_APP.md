@@ -1,4 +1,4 @@
-﻿# Guía detallada de Cuenta Clara
+# Guía detallada de Cuenta Clara
 
 ## 1. Qué hace la app
 
@@ -225,3 +225,11 @@ git -c safe.directory=C:/FlutterProjects/Prog.-Asistida-de-Aplicaciones/Particip
 
 La opción `-c` vale solo para ese comando; no escribe una configuración persistente.
 Puedes aplicar el mismo prefijo a branch, diff, log o push. Ejecutar Flutter no necesita esa excepción.
+
+## Actualización del Deber 3
+
+Una propina superior a 100% muestra exactamente «La propina no puede superar
+el 100%». El valor 100% se permite. La regla está en `ValidarEntrada`, mediante
+la constante privada `_propinaMaxima`; el controlador detiene el cálculo si
+la validación devuelve un error. Consulta `respuestas.md`, `cobertura.md` y
+`bitacora_deber3.md` para la entrega y sus verificaciones reales.

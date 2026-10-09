@@ -1,0 +1,8 @@
+Analyzing divisor_cuenta...                                     
+
+warning - The value of the local variable 'variableSinUsar' isn't used. Try removing the variable or using it - lib\domain\validar_entrada.dart:8:11 - unused_local_variable
+   info - Don't invoke 'print' in production code. Try using a logging framework - lib\domain\validar_entrada.dart:9:5 - avoid_print
+
+2 issues found. (ran in 4.7s)
+
+Código de salida: 1

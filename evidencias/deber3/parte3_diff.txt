@@ -1,0 +1,2 @@
+﻿ lib/domain/validar_entrada.dart | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)

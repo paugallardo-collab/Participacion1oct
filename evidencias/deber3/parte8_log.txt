@@ -1,0 +1,4 @@
+﻿6635cdb refactor: numero magico del limite de propina
+f16cfae verde: propina maxima 100
+bf4211c rojo: pruebas de propina maxima 100
+9cbb899 Update assignment log with completed student analysis

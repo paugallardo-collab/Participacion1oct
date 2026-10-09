@@ -1,0 +1,4 @@
+Analyzing divisor_cuenta...                                     
+No issues found! (ran in 6.2s)
+
+Código de salida: 0

@@ -1,0 +1,62 @@
+﻿00:00 +0: loading P:/divisor_cuenta/test/division_test.dart
+00:00 +0: P:/divisor_cuenta/test/division_test.dart: Rechaza una propina de 150% con el mensaje del límite
+00:00 +0 -1: P:/divisor_cuenta/test/division_test.dart: Rechaza una propina de 150% con el mensaje del límite [E]
+  Expected: 'La propina no puede superar el 100%'
+    Actual: 'Propina inválida'
+     Which: is different.
+            Expected: La propina ...
+              Actual: Propina in ...
+                      ^
+             Differ at offset 0
+  
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test\division_test.dart 27:5                        main.<fn>
+  
+00:00 +0 -1: P:/divisor_cuenta/test/division_test.dart: Permite una propina de exactamente 100%
+00:00 +1 -1: P:/divisor_cuenta/test/division_test.dart: 1. reparto normal
+00:00 +2 -1: P:/divisor_cuenta/test/division_test.dart: 2. sin propina
+00:00 +3 -1: P:/divisor_cuenta/test/division_test.dart: 3. cero personas
+00:00 +4 -1: P:/divisor_cuenta/test/division_test.dart: 4. monto no numerico
+00:00 +5 -1: P:/divisor_cuenta/test/division_test.dart: 5. redondeo exacto
+00:00 +6 -1: P:/divisor_cuenta/test/division_test.dart: 6. redondeo hacia arriba
+00:00 +7 -1: P:/divisor_cuenta/test/division_test.dart: LSP: un mismo cálculo admite ambas estrategias sin if ni cast
+00:00 +8 -1: P:/divisor_cuenta/test/division_test.dart: OCP: tercera estrategia sin cambiar CalcularDivision
+00:00 +9 -1: P:/divisor_cuenta/test/limites_test.dart: Rechaza monto -1.0
+00:00 +10 -1: P:/divisor_cuenta/test/limites_test.dart: Rechaza monto NaN
+00:00 +11 -1: P:/divisor_cuenta/test/limites_test.dart: Rechaza monto Infinity
+00:00 +12 -1: P:/divisor_cuenta/test/limites_test.dart: Rechaza monto 1000000001.0
+00:00 +13 -1: P:/divisor_cuenta/test/limites_test.dart: Rechaza propina -1.0
+00:00 +14 -1: P:/divisor_cuenta/test/limites_test.dart: Rechaza propina NaN
+00:00 +15 -1: P:/divisor_cuenta/test/limites_test.dart: Rechaza propina Infinity
+00:00 +16 -1: P:/divisor_cuenta/test/limites_test.dart: Rechaza propina 101.0
+00:00 +16 -2: P:/divisor_cuenta/test/limites_test.dart: Rechaza propina 101.0 [E]
+  Expected: 'La propina no puede superar el 100%'
+    Actual: 'Propina inválida'
+     Which: is different.
+            Expected: La propina ...
+              Actual: Propina in ...
+                      ^
+             Differ at offset 0
+  
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test\limites_test.dart 39:13                        main.<fn>
+  
+00:00 +16 -2: P:/divisor_cuenta/test/limites_test.dart: Cero monto y extremos permitidos
+00:00 +17 -2: P:/divisor_cuenta/test/limites_test.dart: Mitad de centavo, entero, cero y formato
+00:00 +18 -2: P:/divisor_cuenta/test/limites_test.dart: Controlador no llama estrategia ante errores y recupera el estado
+00:00 +19 -2: P:/divisor_cuenta/test/pantalla_test.dart: Pantalla: escenario 1
+00:00 +20 -2: P:/divisor_cuenta/test/pantalla_test.dart: Pantalla: escenario 2
+00:00 +21 -2: P:/divisor_cuenta/test/pantalla_test.dart: Pantalla: escenario 3
+00:01 +22 -2: P:/divisor_cuenta/test/pantalla_test.dart: Pantalla: escenario 4
+00:01 +23 -2: P:/divisor_cuenta/test/pantalla_test.dart: Pantalla: escenario 5
+00:01 +24 -2: P:/divisor_cuenta/test/pantalla_test.dart: Pantalla: escenario 6
+00:01 +25 -2: P:/divisor_cuenta/test/pantalla_test.dart: Editar borra el resultado y un error no lo recupera
+00:01 +26 -2: P:/divisor_cuenta/test/pantalla_test.dart: Cambiar modo borra resultado; acepta coma decimal
+00:01 +27 -2: P:/divisor_cuenta/test/pantalla_test.dart: Pantalla estrecha y texto grande sin desbordamiento
+00:01 +28 -2: Some tests failed.
+
+Failing tests:
+  P:/divisor_cuenta/test/division_test.dart: Rechaza una propina de 150% con el mensaje del límite
+  P:/divisor_cuenta/test/limites_test.dart: Rechaza propina 101.0
