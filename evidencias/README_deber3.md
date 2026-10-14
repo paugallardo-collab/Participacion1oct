@@ -1,8 +1,16 @@
 # Evidencias del Deber 3
 
-Los PNG exportan la salida de comandos realmente ejecutados. Cada imagen
-lo indica en su encabezado; no pretende ser una captura del escritorio.
-Los registros completos están en `evidencias/deber3/`.
+Los siete PNG son capturas de terminal tomadas por la estudiante el
+**14 de octubre de 2026**, al reproducir las etapas en una copia temporal.
+Sustituyen las imágenes exportadas inicialmente de los registros.
+Los registros originales completos están en `evidencias/deber3/`.
+
+Se ejecutaron los commits `9cbb899` (punto de partida), `bf4211c` (rojo),
+`f16cfae` (verde y demostración del linter) y `6635cdb` (refactor y cobertura).
+La captura roja reproduce únicamente la prueba nueva de 150%; el registro
+original conserva la ejecución completa. Los avisos del linter se provocaron
+de forma temporal y se retiraron después. La captura de historia muestra
+la rama real `deber3` antes del commit que actualiza estas capturas.
 
 | Parte | Imagen exigida | Registro original |
 | --- | --- | --- |

@@ -84,9 +84,12 @@ La diferencia de producción respecto a `sdd` se limita a ese archivo.
 - [Guía de funcionamiento de la aplicación](GUIA_APP.md).
 - [Especificación actualizada](specs/001-divisor-cuenta/spec.md).
 
-Los siete PNG exigidos son exportaciones de registros reales, acompañados
-por sus salidas completas en `.txt`. `coverage/`, las descargas y los archivos
-de compilación quedan fuera del repositorio.
+Los siete PNG exigidos son capturas de terminal tomadas el 14 de octubre de
+2026 al reproducir las etapas en una copia temporal del proyecto. Los registros
+originales completos se conservan en `evidencias/deber3/`. `coverage/`, las
+descargas y los archivos de compilación quedan fuera del repositorio.
+
+Enlace de entrega: [rama deber3 en GitHub](https://github.com/paugallardo-collab/Participacion1oct/tree/deber3).
 
 Los commits cuentan el ciclo **rojo → verde → refactorización → entrega**.
 Se omite el commit de linter porque sus dos avisos fueron temporales, como

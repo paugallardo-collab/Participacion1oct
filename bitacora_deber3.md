@@ -49,10 +49,14 @@ con Dart puro, sin importar Flutter en el dominio.
 
 ## Evidencias y entorno
 
-Los PNG son exportaciones legibles de la salida real de los comandos registrados
-en esta ejecución. Se identifican expresamente como registros exportados;
-no son capturas de un escritorio ni resultados inventados. Los `.txt` conservan
-la salida original completa y las imágenes no cambian los resultados.
+Las imágenes iniciales exportaban los registros reales de la ejecución.
+El **14 de octubre de 2026** se sustituyeron por siete capturas de terminal
+tomadas por la estudiante al reproducir las etapas en una copia temporal.
+Los encabezados identifican esa reproducción y el commit correspondiente.
+La captura roja ejecuta la prueba nueva de 150%; el registro original conserva
+la ejecución completa de las pruebas. Los avisos del linter se provocaron
+temporalmente y se retiraron. La captura de historia muestra la rama de entrega.
+Los `.txt` conservan la salida original completa.
 Los textos del SDK permanecen en su idioma original para conservar la evidencia;
 el código y la documentación nuevos están escritos en español.
 
@@ -70,6 +74,9 @@ La conexión de GitHub rechazó la escritura con el error 403
 `Resource not accessible by integration`. Se eligió iniciar sesión en este
 equipo con GitHub CLI para publicar mediante `git push -u origin deber3`,
 conservando los commits locales y sus identificadores. La evidencia de la
-parte 8 registra el historial realmente ejecutado antes del commit de entrega.
-La publicación requiere completar la autenticación del usuario en GitHub;
-su resultado se comprueba contra la referencia remota de la rama.
+parte 8 original registra el historial antes del primer commit de entrega.
+El **14 de octubre de 2026** la estudiante completó la autenticación y publicó
+`deber3`. Se comprobó que la rama remota contiene las respuestas y las evidencias.
+La actualización posterior incorpora las siete capturas de terminal y esta
+aclaración de su origen. El enlace de entrega es:
+[rama deber3](https://github.com/paugallardo-collab/Participacion1oct/tree/deber3).
